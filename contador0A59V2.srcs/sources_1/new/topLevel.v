@@ -30,7 +30,7 @@ module topLevel(
     reg [6:0] unidades;
     
     divisorDeFrecuencia divisorDeFrecuenciaInst(.divContador (clk100MHz), .divMux (clk100MHz));
-    contador contadorInst(.clk(divContador), .reset(reset), .bcd(decenas), .bcdu(unidades));
+    contador contadorInst(.clk(divContador), .reset(reset), .bcdd(decenas), .bcdu(unidades));
     decoder decoderInst(.unidades(unidades), .decenas(decenas));
     mux mixinst(.divMux(divMux));
     
