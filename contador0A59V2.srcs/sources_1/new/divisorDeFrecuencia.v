@@ -1,14 +1,14 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
+// Company: Instituto Tecnologico de Chihuahua
+// Engineer: Alex Armando Figueroa Hernandez
 // 
 // Create Date: 09/20/2022 07:51:23 PM
-// Design Name: 
-// Module Name: contador
+// Design Name: contador0A59V2
+// Module Name: divisorDeFrecuencia
 // Project Name: 
-// Target Devices: 
-// Tool Versions: 
+// Target Devices: Arty 7
+// Tool Versions: Vivado 2019.1
 // Description: 
 // 
 // Dependencies: 
